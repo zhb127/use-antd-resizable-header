@@ -11,19 +11,17 @@
 
     & .resizable-handler {
       position: absolute;
-      right: -5px;
+      right: 0;
       bottom: 0;
       z-index: 3;
       display: flex;
       justify-content: center;
-      width: 10px;
       height: 100%;
       cursor: col-resize;
 
       & .resizable-line {
         width: 4px;
         height: 100%;
-        border-radius: 8px;
         transition: background-color 0.2s;
       }
 
